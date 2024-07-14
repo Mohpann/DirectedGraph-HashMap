@@ -1,0 +1,56 @@
+Worst Case Scenarios Big 0 Notation
+
+List
+- Access: 0(1)
+- Search/insertion/deletion: 0(n)
+
+Dictionary
+
+Tuple
+
+Set
+
+Stack
+- Access: 0(n)
+- Search: 0(n)
+- Insertion/deletion: 0(1)
+
+Queue
+Same as STACK ^^
+
+BST
+- Worst -> 0(n)
+
+Linked List
+SLL and DLL -> Access/search 0(n)
+	 Insertion/deletion: 0(1)
+____________________________________________________________
+Hashmap Python
+
+Set of key/value pairs
+No duplicate keys
+0(1) for add, get, delete
+
+- AKA map/dictionary/hash table/associative array
+- Use dict() 
+
+Components of Hashmap:
+
+Array - data structure used to store data
+
+Hash function - function to convert key into an array index
+
+Collision handling
+Access: N/A
+Insertion/Deletion/search: 0(1)
+____________________________________________________________
+
+Constant: O(1)
+Linear time: O(n)
+Logarithmic time: O(n log n)
+Quadratic time: O(n^2)
+Exponential time: 2 ^{polyn}
+Factorial time: O(n!)
+Polynomial-time: 2^{O(log n)}
+
+Unit tests
